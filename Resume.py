@@ -9,7 +9,7 @@ st.set_page_config(page_title="Resume-Shiaz Asif", page_icon=":earth_asia:",layo
 
 #Adding Images & Resizing
 My_image = Image.open("images/shiaz_asif.png")
-My_image = My_image.resize((300,400),Image.ANTIALIAS)
+My_image = My_image.resize((300,300),Image.ANTIALIAS)
 Tool_image = Image.open("images/Tools.png")
 Tool_image = Tool_image.resize((500,380),Image.ANTIALIAS)
 #Loading Animation

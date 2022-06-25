@@ -11,7 +11,7 @@ st.set_page_config(page_title="Resume-Shiaz Asif", page_icon=":earth_asia:",layo
 My_image = Image.open("images/shiaz_asif.png")
 My_image = My_image.resize((260,260),Image.ANTIALIAS)
 Tool_image = Image.open("images/Tools.png")
-Tool_image = Tool_image.resize((500,450),Image.ANTIALIAS)
+Tool_image = Tool_image.resize((500,420),Image.ANTIALIAS)
 #Loading Animation
 def load_lottieurl(url):
     r = requests.get(url)

@@ -68,7 +68,7 @@ with st.container():
         st.image(Tool_image)
 
 with st.container():
-    st.write("###")
+    
     st.write("---")
     st.header("Work Experience")
     st.subheader(" ISS INDIA - Barclays Global Technology Center - Pune")

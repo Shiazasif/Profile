@@ -139,6 +139,7 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+        st.writ("###")
     with right_column:
         if st.button("Click to view Personal Information"):
          st.write(f"""

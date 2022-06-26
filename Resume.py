@@ -21,7 +21,7 @@ def load_lottieurl(url):
 
 #headered of My Image & Personal Information
 with st.container():
-    image_column, middle_column text_column = st.columns((3))
+    image_column, middle_column, text_column = st.columns((3))
     with middle_column:
         st.image(My_image)
 

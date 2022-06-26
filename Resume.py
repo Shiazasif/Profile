@@ -144,6 +144,12 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+    with right_column:
+        st.subheader("Personal Information")
+        st.write(":e-mail: shiazasif.data@gmail.com")
+        st.write(":telephone_receiver: +91 91644 56725")
+        st.write(":round_pushpin:Local Address - Bangalore, Karnataka, India -5600 45")
+        st.write(":round_pushpin:Current Address - Pune, Maharashtra, India -4110 28")
 
 # ---Use Local Css File to design form---
 def local_css(file_name):

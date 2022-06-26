@@ -140,12 +140,13 @@ with st.container():
     with right_column:
         st.empty()
     with right_column:
-        st.subheader("Personal Information")
-        st.write(":e-mail: shiazasif.data@gmail.com")
-        st.write(":telephone_receiver: +91 91644 56725")
-        st.write(":round_pushpin:Local Address - Bangalore, Karnataka, India -5600 45")
-        st.write(":round_pushpin:Current Address - Pune, Maharashtra, India -4110 28")
-
+        if st.button("Click to view Personal Information"):
+         st.write(f"""
+         :e-mail: shiazasif.data@gmail.com \n
+         :telephone_receiver: +91 91644 56725 \n
+         :round_pushpin:Local Address - Bangalore, Karnataka, India - 5600 45 \n
+         :round_pushpin:Current Address - Pune, Maharashtra, India - 4110 28 \n
+         """)
 # ---Use Local Css File to design form---
 def local_css(file_name):
     with open(file_name) as f:

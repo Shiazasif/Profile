@@ -139,8 +139,8 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-        st.writ("###")
     with right_column:
+        st.write("###")
         if st.button("Click to view Personal Information"):
          st.write(f"""
          :e-mail: shiazasif.data@gmail.com \n

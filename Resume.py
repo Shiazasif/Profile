@@ -21,11 +21,16 @@ def load_lottieurl(url):
 
 #headered of My Image & Personal Information
 with st.container():
-    image_column, text_column = st.columns((1, 1))
-    with image_column:
+    image_column, middle_column text_column = st.columns((3))
+    with middle_column:
         st.image(My_image)
 
     with text_column:
+        st.subheader("Personal Information")
+        st.write(":e-mail: shiazasif.data@gmail.com")
+        st.write(":telephone_receiver: +91 91644 56725")
+        st.write(":round_pushpin:Local Address - Bangalore, Karnataka, India -5600 45")
+        st.write(":round_pushpin:Current Address - Pune, Maharashtra, India -4110 28")
         if st.button('View LinkedIn Profile'):
             st.write("[👀Click here](https://www.linkedin.com/in/shiaz-asif-507a1a191)")
         if st.button('Download Resume'):
@@ -143,8 +148,8 @@ with st.container():
         st.subheader("Personal Information")
         st.write(":e-mail: shiazasif.data@gmail.com")
         st.write(":telephone_receiver: +91 91644 56725")
-        st.write(":round_pushpin:Local Address - Bangalore, Karnataka, India - 5600 45")
-        st.write(":round_pushpin:Current Address - Pune, Maharashtra, India - 4110 28")
+        st.write(":round_pushpin:Local Address - Bangalore, Karnataka, India -5600 45")
+        st.write(":round_pushpin:Current Address - Pune, Maharashtra, India -4110 28")
 
 # ---Use Local Css File to design form---
 def local_css(file_name):
